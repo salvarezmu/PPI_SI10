@@ -67,7 +67,7 @@ if uploaded_image is not None:
         fig, ax = plt.subplots()
         ax.plot(equalized_hist, color='black')
         ax.set_title("Histograma del Contraste")
-        ax.set_xlabel("Valor de Píxel")
+        ax.set_xlabel("Intensidad del píxel")
         ax.set_ylabel("Frecuencia")
 
         # Se pinta el histograma
